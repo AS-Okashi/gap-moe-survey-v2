@@ -28,7 +28,7 @@ function startTimer() {
   timerDone = false;
   document.getElementById('impression-questions').style.display = 'none';
   document.getElementById('btn-next-impression').disabled = true;
-  let count = 5;
+  let count = 0;
   document.getElementById('timer-count').textContent = count;
 
   if (timerInterval) clearInterval(timerInterval);
